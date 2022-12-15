@@ -8,7 +8,8 @@ create external table if not exists employee (
   storeid int,
   storelocation string,
   salary bigint,
-  yrsofexp int
+  yrsofexp int,
+  cid int
 )
 row format delimited
 fields terminated by ','

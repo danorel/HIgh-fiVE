@@ -32,6 +32,7 @@ services:
     container_name: hive-server
     volumes:
       - ./employee:/employee
+      - ./company:/company
     env_file:
       - ./hadoop-hive.env
     environment:
